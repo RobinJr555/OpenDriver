@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\FWlib\inc -I..\USER -I..\FWlib\src -I..\CMSIS\startup -I..\FreeRTOS\include -I..\FreeRTOS\portable\RVDS\ARM_CM3 -I..\HAL -I..\Common --gnu
+-I C:\Keil_472\ARM\RV31\INC
+-I C:\Keil_472\ARM\CMSIS\Include
+-I C:\Keil_472\ARM\Inc\ST\STM32F10x
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o .\output\mach_minisys.o --omf_browse .\output\mach_minisys.crf --depend .\output\mach_minisys.d "..\HAL\mach\mach_minisys.c"
